@@ -1,1 +1,1 @@
-web deno run --allow-net --allow-read --allow-write --allow-plugin unstable =:${PORT} --cached-only server.ts --port=${PORT}
+web deno run --allow-net --allow-read --allow-write --allow-plugin --unstable=:${PORT} --cached-only server.ts --port=${PORT}

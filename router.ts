@@ -1,6 +1,6 @@
 import { Router } from "https://deno.land/x/oak/mod.ts";
 import db from "./database.ts";
-import database from "./db.ts";
+// import database from "./db.ts";
 const router = new Router();
 
 const users = db.collection("users");
