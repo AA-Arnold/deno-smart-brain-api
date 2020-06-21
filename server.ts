@@ -25,7 +25,7 @@ app.use(oakCors());
 app.use(router.routes());
 
 router.get("/", (ctx) => {
-  ctx.response.body = database;
+  ctx.response.body = "The server is working";
 });
 
 app.use((ctx) => {
